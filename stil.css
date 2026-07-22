@@ -1,0 +1,38 @@
+:root{
+  --bg:#0d0c16; --bg2:#151327; --card:#1b1930; --line:#2a2745;
+  --tx:#eceafd; --mut:#9a95c4; --pink:#ff6b9d; --pur:#7f5af0; --yel:#ffd166;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--tx);
+  font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:760px;margin:0 auto;padding:32px 20px 80px}
+header{padding:44px 0 26px;border-bottom:1px solid var(--line);margin-bottom:34px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--tx)}
+.mark{width:44px;height:44px;border-radius:13px;background:linear-gradient(135deg,var(--pink),var(--pur));
+  display:flex;align-items:center;justify-content:center;font-size:22px}
+.logo b{font-size:26px;letter-spacing:-.5px}
+.logo b i{color:var(--pink);font-style:normal}
+.slogan{color:var(--mut);font-size:14px;margin-top:8px}
+h1{font-size:29px;line-height:1.3;margin:0 0 6px;letter-spacing:-.4px}
+h2{font-size:19px;margin:34px 0 10px;color:var(--tx)}
+h3{font-size:16px;margin:22px 0 6px;color:var(--yel)}
+p,li{color:#d5d1f0}
+a{color:var(--pink)}
+.tarih{color:var(--mut);font-size:13px;margin-bottom:26px}
+.kart{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;margin:18px 0}
+.uyari{background:#2a1b2b;border-color:#5a3550}
+.nav{display:flex;flex-wrap:wrap;gap:9px;margin:26px 0 0}
+.nav a{background:var(--bg2);border:1px solid var(--line);border-radius:11px;padding:10px 15px;
+  text-decoration:none;color:var(--tx);font-size:14px;font-weight:600}
+.nav a:hover{border-color:var(--pink)}
+.nav a.act{background:linear-gradient(135deg,var(--pink),var(--pur));border-color:transparent}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--pink),var(--pur));color:#fff;
+  text-decoration:none;font-weight:700;padding:14px 26px;border-radius:13px;margin-top:8px}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--yel);font-weight:700}
+footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+code{background:var(--bg2);padding:2px 7px;border-radius:6px;font-size:14px;color:var(--yel)}
